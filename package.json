@@ -1,0 +1,27 @@
+{
+  "name": "cse341",
+  "version": "1.0.0",
+  "description": "cse341",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev_start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bherendeen/cse341-node.git"
+  },
+  "author": "Benjamin Herendeen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bherendeen/cse341-node/issues"
+  },
+  "homepage": "https://github.com/bherendeen/cse341-node#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

@@ -1,0 +1,8 @@
+# Node Modles
+node_modules
+
+# For ES6 version
+.jshintrc
+
+# Text info file
+info.txt

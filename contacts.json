@@ -1,0 +1,23 @@
+{
+    "contacts1": {
+        "firstName": "Tami",
+        "lastName": "Herendeen",
+        "email": "tamra.herendeen@gmail.com",
+        "favoriteColor": "Blue",
+        "birthday": "03/18/1986"
+    },
+    "contacts2": {
+        "firstName": "Adam",
+        "lastName": "Herendeen",
+        "email": "adam.herendeen26@gmail.com",
+        "favoriteColor": "Blue",
+        "birthday": "01/13/1983"
+    },
+    "contacts3": {
+        "firstName": "Joseph",
+        "lastName": "Herendeen",
+        "email": "josepherendeen@gmail.com",
+        "favoriteColor": "Green",
+        "birthday": "05/21/1984"
+    }
+}

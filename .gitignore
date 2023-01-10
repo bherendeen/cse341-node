@@ -1,7 +1,7 @@
 # Node Modles
 node_modules
 
-# For ES6 version
+# For ES11 version
 .jshintrc
 
 # Text info file

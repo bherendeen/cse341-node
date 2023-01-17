@@ -1,30 +1,84 @@
-// LOCALHOST ### 
+// LOCALHOST
+###
+
+### get all contacts
 GET http://localhost:8080/contacts
 
-###
-
+### get single contact
 GET http://localhost:8080/contacts/632a32d474be5f4eb6a11c73
 
-###
-
+### get single contact
 GET http://localhost:8080/contacts/632a32d474be5f4eb6a11c74
 
-###
-
+### get single contact
 GET http://localhost:8080/contacts/632a32d474be5f4eb6a11c75
 
+### create contact
+POST http://localhost:8080/contacts HTTP/1.1 
+content-type: application/json
+
+{
+        "firstName": "Will",
+        "lastName": "Ferrell",
+        "email": "will.ferrell@gamil.com",
+        "favoriteColor": "Blue",
+        "birthday": "07/16/1967"
+}
+
+### update contact
+PUT http://localhost:8080/contacts/63c70a767f0d6c3fc6f67c15 HTTP/1.1 
+content-type: application/json
+
+{
+        "firstName": "Will",
+        "lastName": "Ferrell",
+        "email": "will.ferrell@gamil.com",
+        "favoriteColor": "Brown",
+        "birthday": "07/16/1967"
+}
+
+### delete contact
+DELETE http://localhost:8080/contacts/63c70a767f0d6c3fc6f67c15 HTTP/1.1 
+
+// ---
 // PRODUCTION
 ###
+
+### get all contacts
 GET https://bherendeen-cse341.onrender.com/contacts
 
-###
-
+### get single contact
 GET https://bherendeen-cse341.onrender.com/contacts/632a32d474be5f4eb6a11c73
 
-###
-
+### get single contact
 GET https://bherendeen-cse341.onrender.com/contacts/632a32d474be5f4eb6a11c74
 
-###
-
+### get single contact
 GET https://bherendeen-cse341.onrender.com/contacts/632a32d474be5f4eb6a11c75
+
+### create contact
+POST https://bherendeen-cse341.onrender.com/contacts HTTP/1.1 
+content-type: application/json
+
+{
+        "firstName": "Will",
+        "lastName": "Ferrell",
+        "email": "will.ferrell@gamil.com",
+        "favoriteColor": "Blue",
+        "birthday": "07/16/1967"
+}
+
+### update contact
+PUT https://bherendeen-cse341.onrender.com/63c70a767f0d6c3fc6f67c15 HTTP/1.1 
+content-type: application/json
+
+{
+        "firstName": "Will",
+        "lastName": "Ferrell",
+        "email": "will.ferrell@gamil.com",
+        "favoriteColor": "Brown",
+        "birthday": "07/16/1967"
+}
+
+### delete contact
+DELETE https://bherendeen-cse341.onrender.com/contacts/63c70a767f0d6c3fc6f67c15 HTTP/1.1 

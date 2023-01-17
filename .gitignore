@@ -6,3 +6,5 @@ node_modules
 
 # Text info file
 info.txt
+
+.env

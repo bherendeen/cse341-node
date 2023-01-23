@@ -26,7 +26,7 @@ content-type: application/json
 }
 
 ### update contact
-PUT http://localhost:8080/contacts/63c70a767f0d6c3fc6f67c15 HTTP/1.1 
+PUT http://localhost:8080/contacts/63c97dcb2c31f8a6235c48a9 HTTP/1.1 
 content-type: application/json
 
 {
@@ -38,7 +38,7 @@ content-type: application/json
 }
 
 ### delete contact
-DELETE http://localhost:8080/contacts/63c727c5ce82c67d988772a2 HTTP/1.1 
+DELETE http://localhost:8080/contacts/63c97dcb2c31f8a6235c48a9 HTTP/1.1 
 
 // ---
 // PRODUCTION
@@ -69,7 +69,7 @@ content-type: application/json
 }
 
 ### update contact
-PUT https://bherendeen-cse341.onrender.com/63c70a767f0d6c3fc6f67c15 HTTP/1.1 
+PUT https://bherendeen-cse341.onrender.com/contacts/63c97e11b99bdf39d8593345 HTTP/1.1 
 content-type: application/json
 
 {
@@ -81,4 +81,4 @@ content-type: application/json
 }
 
 ### delete contact
-DELETE https://bherendeen-cse341.onrender.com/contacts/63c70a767f0d6c3fc6f67c15 HTTP/1.1 
+DELETE https://bherendeen-cse341.onrender.com/contacts/63c97e11b99bdf39d8593345 HTTP/1.1 
